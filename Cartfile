@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire"
+github "ReactiveX/RxSwift" ~> 3.0
+github "SwiftyJSON/SwiftyJSON"
+github "RxSwiftCommunity/Action" ~> 2.3.0
+github "RxSwiftCommunity/RxAlamofire" "master"
+github "OAuthSwift/OAuthSwiftAlamofire"
+github "Hearst-DD/ObjectMapper"

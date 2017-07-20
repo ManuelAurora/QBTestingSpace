@@ -1,0 +1,8 @@
+github "Alamofire/Alamofire" "4.5.0"
+github "Hearst-DD/ObjectMapper" "2.2.8"
+github "OAuthSwift/OAuthSwift" "1.1.2"
+github "OAuthSwift/OAuthSwiftAlamofire" "0.1.0"
+github "ReactiveX/RxSwift" "3.6.0"
+github "RxSwiftCommunity/Action" "2.3.0"
+github "RxSwiftCommunity/RxAlamofire" "6bac601d95ea54aaf3ed5c14535c46166c860812"
+github "SwiftyJSON/SwiftyJSON" "3.1.4"

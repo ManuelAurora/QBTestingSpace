@@ -7,19 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		645364E61F1F423E001A52C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645364E51F1F423E001A52C4 /* AppDelegate.swift */; };
-		645364E81F1F423E001A52C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645364E71F1F423E001A52C4 /* ViewController.swift */; };
-		645364EA1F1F423E001A52C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645364E91F1F423E001A52C4 /* Assets.xcassets */; };
-		645364ED1F1F423E001A52C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645364EB1F1F423E001A52C4 /* Main.storyboard */; };
+		6428335C1F1F4EA30023F4C1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642833451F1F4D340023F4C1 /* Alamofire.framework */; };
+		6428335D1F1F4EA30023F4C1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642833451F1F4D340023F4C1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6428335E1F1F4EA30023F4C1 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642833461F1F4D340023F4C1 /* OAuthSwift.framework */; };
+		6428335F1F1F4EA30023F4C1 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642833461F1F4D340023F4C1 /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		642833601F1F4EA30023F4C1 /* OAuthSwiftAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642833471F1F4D340023F4C1 /* OAuthSwiftAlamofire.framework */; };
+		642833611F1F4EA30023F4C1 /* OAuthSwiftAlamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642833471F1F4D340023F4C1 /* OAuthSwiftAlamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		642833621F1F4EA30023F4C1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642833481F1F4D340023F4C1 /* RxCocoa.framework */; };
+		642833631F1F4EA30023F4C1 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642833481F1F4D340023F4C1 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		642833641F1F4EA30023F4C1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642833491F1F4D340023F4C1 /* RxSwift.framework */; };
+		642833651F1F4EA30023F4C1 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 642833491F1F4D340023F4C1 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		642833661F1F4EA30023F4C1 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6428334A1F1F4D340023F4C1 /* SwiftyJSON.framework */; };
+		642833671F1F4EA30023F4C1 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6428334A1F1F4D340023F4C1 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		642833731F1F504A0023F4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833691F1F504A0023F4C1 /* AppDelegate.swift */; };
+		642833741F1F504A0023F4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6428336A1F1F504A0023F4C1 /* Assets.xcassets */; };
+		642833751F1F504A0023F4C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6428336C1F1F504A0023F4C1 /* Info.plist */; };
+		642833761F1F504A0023F4C1 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6428336D1F1F504A0023F4C1 /* ViewController.storyboard */; };
+		642833771F1F504A0023F4C1 /* QuickBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428336E1F1F504A0023F4C1 /* QuickBook.swift */; };
+		642833781F1F504A0023F4C1 /* QuickBookHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428336F1F1F504A0023F4C1 /* QuickBookHelpers.swift */; };
+		642833791F1F504A0023F4C1 /* QuickBookRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833701F1F504A0023F4C1 /* QuickBookRequestHandler.swift */; };
+		6428337B1F1F504A0023F4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833721F1F504A0023F4C1 /* ViewController.swift */; };
+		6428337E1F1F50ED0023F4C1 /* Dictionary + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428337D1F1F50ED0023F4C1 /* Dictionary + Extension.swift */; };
+		642833801F1F50FB0023F4C1 /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428337F1F1F50FB0023F4C1 /* Date + Extension.swift */; };
+		642833821F1F52760023F4C1 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833811F1F52760023F4C1 /* String + Extension.swift */; };
+		642833851F1F54BB0023F4C1 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833841F1F54BB0023F4C1 /* BindableType.swift */; };
+		642833881F1F55A10023F4C1 /* QuickBooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833871F1F55A10023F4C1 /* QuickBooksViewModel.swift */; };
+		6428338A1F1F55F80023F4C1 /* NotificationCenter + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642833891F1F55F80023F4C1 /* NotificationCenter + Extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		642833681F1F4EA30023F4C1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				642833651F1F4EA30023F4C1 /* RxSwift.framework in Embed Frameworks */,
+				642833631F1F4EA30023F4C1 /* RxCocoa.framework in Embed Frameworks */,
+				642833671F1F4EA30023F4C1 /* SwiftyJSON.framework in Embed Frameworks */,
+				6428335F1F1F4EA30023F4C1 /* OAuthSwift.framework in Embed Frameworks */,
+				6428335D1F1F4EA30023F4C1 /* Alamofire.framework in Embed Frameworks */,
+				642833611F1F4EA30023F4C1 /* OAuthSwiftAlamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		642833451F1F4D340023F4C1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/Mac/Alamofire.framework; sourceTree = "<group>"; };
+		642833461F1F4D340023F4C1 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = Carthage/Build/Mac/OAuthSwift.framework; sourceTree = "<group>"; };
+		642833471F1F4D340023F4C1 /* OAuthSwiftAlamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwiftAlamofire.framework; path = Carthage/Build/Mac/OAuthSwiftAlamofire.framework; sourceTree = "<group>"; };
+		642833481F1F4D340023F4C1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		642833491F1F4D340023F4C1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		6428334A1F1F4D340023F4C1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
+		642833691F1F504A0023F4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = TestingSpaceQuickBooks/AppDelegate.swift; sourceTree = "<group>"; };
+		6428336A1F1F504A0023F4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TestingSpaceQuickBooks/Assets.xcassets; sourceTree = "<group>"; };
+		6428336C1F1F504A0023F4C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestingSpaceQuickBooks/Info.plist; sourceTree = "<group>"; };
+		6428336D1F1F504A0023F4C1 /* ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ViewController.storyboard; path = TestingSpaceQuickBooks/ViewController.storyboard; sourceTree = "<group>"; };
+		6428336E1F1F504A0023F4C1 /* QuickBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickBook.swift; path = TestingSpaceQuickBooks/QuickBook.swift; sourceTree = "<group>"; };
+		6428336F1F1F504A0023F4C1 /* QuickBookHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickBookHelpers.swift; path = TestingSpaceQuickBooks/QuickBookHelpers.swift; sourceTree = "<group>"; };
+		642833701F1F504A0023F4C1 /* QuickBookRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickBookRequestHandler.swift; path = TestingSpaceQuickBooks/QuickBookRequestHandler.swift; sourceTree = "<group>"; };
+		642833721F1F504A0023F4C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TestingSpaceQuickBooks/ViewController.swift; sourceTree = "<group>"; };
+		6428337D1F1F50ED0023F4C1 /* Dictionary + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary + Extension.swift"; sourceTree = "<group>"; };
+		6428337F1F1F50FB0023F4C1 /* Date + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
+		642833811F1F52760023F4C1 /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		642833841F1F54BB0023F4C1 /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		642833871F1F55A10023F4C1 /* QuickBooksViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickBooksViewModel.swift; sourceTree = "<group>"; };
+		642833891F1F55F80023F4C1 /* NotificationCenter + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter + Extension.swift"; sourceTree = "<group>"; };
 		645364E21F1F423E001A52C4 /* TestingSpaceQuickBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingSpaceQuickBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		645364E51F1F423E001A52C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		645364E71F1F423E001A52C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		645364E91F1F423E001A52C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		645364EC1F1F423E001A52C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		645364EE1F1F423E001A52C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,16 +83,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642833641F1F4EA30023F4C1 /* RxSwift.framework in Frameworks */,
+				642833621F1F4EA30023F4C1 /* RxCocoa.framework in Frameworks */,
+				642833661F1F4EA30023F4C1 /* SwiftyJSON.framework in Frameworks */,
+				6428335E1F1F4EA30023F4C1 /* OAuthSwift.framework in Frameworks */,
+				6428335C1F1F4EA30023F4C1 /* Alamofire.framework in Frameworks */,
+				642833601F1F4EA30023F4C1 /* OAuthSwiftAlamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642833521F1F4D3D0023F4C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				642833451F1F4D340023F4C1 /* Alamofire.framework */,
+				642833461F1F4D340023F4C1 /* OAuthSwift.framework */,
+				642833471F1F4D340023F4C1 /* OAuthSwiftAlamofire.framework */,
+				642833481F1F4D340023F4C1 /* RxCocoa.framework */,
+				642833491F1F4D340023F4C1 /* RxSwift.framework */,
+				6428334A1F1F4D340023F4C1 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6428337C1F1F50620023F4C1 /* QuickBooks */ = {
+			isa = PBXGroup;
+			children = (
+				6428336E1F1F504A0023F4C1 /* QuickBook.swift */,
+				6428336F1F1F504A0023F4C1 /* QuickBookHelpers.swift */,
+				642833701F1F504A0023F4C1 /* QuickBookRequestHandler.swift */,
+			);
+			name = QuickBooks;
+			sourceTree = "<group>";
+		};
+		642833831F1F536A0023F4C1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				642833691F1F504A0023F4C1 /* AppDelegate.swift */,
+				6428336A1F1F504A0023F4C1 /* Assets.xcassets */,
+				6428336C1F1F504A0023F4C1 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		642833861F1F55520023F4C1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6428336D1F1F504A0023F4C1 /* ViewController.storyboard */,
+				642833721F1F504A0023F4C1 /* ViewController.swift */,
+				642833871F1F55A10023F4C1 /* QuickBooksViewModel.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
 		645364D91F1F423E001A52C4 = {
 			isa = PBXGroup;
 			children = (
-				645364E41F1F423E001A52C4 /* TestingSpaceQuickBooks */,
+				642833831F1F536A0023F4C1 /* Other */,
+				6428337C1F1F50620023F4C1 /* QuickBooks */,
+				642833861F1F55520023F4C1 /* View Controller */,
+				642833841F1F54BB0023F4C1 /* BindableType.swift */,
+				642833891F1F55F80023F4C1 /* NotificationCenter + Extension.swift */,
+				6428337D1F1F50ED0023F4C1 /* Dictionary + Extension.swift */,
+				6428337F1F1F50FB0023F4C1 /* Date + Extension.swift */,
+				642833811F1F52760023F4C1 /* String + Extension.swift */,
+				642833521F1F4D3D0023F4C1 /* Frameworks */,
 				645364E31F1F423E001A52C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,18 +162,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		645364E41F1F423E001A52C4 /* TestingSpaceQuickBooks */ = {
-			isa = PBXGroup;
-			children = (
-				645364E51F1F423E001A52C4 /* AppDelegate.swift */,
-				645364E71F1F423E001A52C4 /* ViewController.swift */,
-				645364E91F1F423E001A52C4 /* Assets.xcassets */,
-				645364EB1F1F423E001A52C4 /* Main.storyboard */,
-				645364EE1F1F423E001A52C4 /* Info.plist */,
-			);
-			path = TestingSpaceQuickBooks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +172,7 @@
 				645364DE1F1F423E001A52C4 /* Sources */,
 				645364DF1F1F423E001A52C4 /* Frameworks */,
 				645364E01F1F423E001A52C4 /* Resources */,
+				642833681F1F4EA30023F4C1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +196,7 @@
 					645364E11F1F423E001A52C4 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 2FNB386G38;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,8 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645364EA1F1F423E001A52C4 /* Assets.xcassets in Resources */,
-				645364ED1F1F423E001A52C4 /* Main.storyboard in Resources */,
+				642833761F1F504A0023F4C1 /* ViewController.storyboard in Resources */,
+				642833751F1F504A0023F4C1 /* Info.plist in Resources */,
+				642833741F1F504A0023F4C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +237,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				645364E81F1F423E001A52C4 /* ViewController.swift in Sources */,
-				645364E61F1F423E001A52C4 /* AppDelegate.swift in Sources */,
+				6428337B1F1F504A0023F4C1 /* ViewController.swift in Sources */,
+				642833851F1F54BB0023F4C1 /* BindableType.swift in Sources */,
+				6428337E1F1F50ED0023F4C1 /* Dictionary + Extension.swift in Sources */,
+				642833781F1F504A0023F4C1 /* QuickBookHelpers.swift in Sources */,
+				642833771F1F504A0023F4C1 /* QuickBook.swift in Sources */,
+				642833821F1F52760023F4C1 /* String + Extension.swift in Sources */,
+				642833731F1F504A0023F4C1 /* AppDelegate.swift in Sources */,
+				642833881F1F55A10023F4C1 /* QuickBooksViewModel.swift in Sources */,
+				6428338A1F1F55F80023F4C1 /* NotificationCenter + Extension.swift in Sources */,
+				642833791F1F504A0023F4C1 /* QuickBookRequestHandler.swift in Sources */,
+				642833801F1F50FB0023F4C1 /* Date + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		645364EB1F1F423E001A52C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				645364EC1F1F423E001A52C4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		645364EF1F1F423E001A52C4 /* Debug */ = {
@@ -248,12 +350,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2FNB386G38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TestingSpaceQuickBooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MMM.TestingSpaceQuickBooks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -262,8 +370,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 2FNB386G38;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = TestingSpaceQuickBooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MMM.TestingSpaceQuickBooks;
@@ -291,6 +404,7 @@
 				645364F31F1F423E001A52C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,24 @@
+{
+  "iOS" : [
+    {
+      "hash" : "024d13b3ab7ba77aa446d2b619f15a26dc95295f706942ccbb2b5b7863fbd0d1",
+      "name" : "OAuthSwiftAlamofire"
+    }
+  ],
+  "commitish" : "0.1.0",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "f02c7c8aa5d745188e8c176ab4fea0a1616fa44761adc7b3ed8f845ddb0c9ac9",
+      "name" : "OAuthSwiftAlamofire"
+    }
+  ],
+  "Mac" : [
+    {
+      "hash" : "d1aa452f8c996070fbf356011b767b1f38b813daf059b0f558525e0f28ea58dd",
+      "name" : "OAuthSwiftAlamofire"
+    }
+  ]
+}
